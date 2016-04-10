@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="studentPage">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+     <script type="text/javascript"></script>
+<div ng-controller="studentInfo">
+
+   <p ng-repeat="i in info">{{i}}</p>
+    <img ng-src="{{info.photo}}">
+
+</div>
+
+
+  <script src="scripts/app.js"></script>
+<script src="scripts/myController.js"></script>
+    </body>
+</html>
